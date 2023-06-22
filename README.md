@@ -39,8 +39,8 @@ Response: JSON object with the updated account details
 
 DELETE ACCOUNT
 
-Endpoint: DELETE /delete-account/:account_number
-Input: Account number as a URL parameter
+Endpoint: DELETE /delete_account.php
+Input: Account number as a Key parameter
 Response: JSON object with a success message
 
 SEND & RECEIVE MONEY
