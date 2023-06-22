@@ -25,24 +25,26 @@ To run this project locally, follow these steps:
 
 7. API ENDPOINTS TESTING
 
-  CREATE ACCOUNT
+CREATE ACCOUNT
 
-Endpoint: POST /create-account
-Input: JSON body with account details (name, email, etc.)
-Response: JSON object with the created account details
-
-UPDATE ACCOUNT
-
-Endpoint: PUT /update-account/:account_number
-Input: JSON body with updated account details (name, email, etc.)
-Response: JSON object with the updated account details
+Endpoint: POST /create_account.php
+Input: JSON body with account details (account_number, account_name, account_balance, account_type)
+Response: JSON object with Success Message
 
 DELETE ACCOUNT
 
-Endpoint: DELETE /delete_account.php
-Input: Account number as a Key parameter
+Endpoint: PUT /delete_account.php
+Input: JSON with account number
 Response: JSON object with a success message
 
+UPDATE ACCOUNT
+
+Endpoint: PUT /account_update.php/:account_number
+Input: JSON body with update account details you want (account_number, account_name, account_balance, account_type)
+Response: JSON object with  a success message
+
+
+=======================remain to edit===========================
 SEND & RECEIVE MONEY
 
 Endpoint: POST /send-money
